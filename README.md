@@ -1,1 +1,5 @@
 # depot
+
+```bash
+$ rails new .
+```
