@@ -7,4 +7,5 @@ $ ./bin/rails db:migrate
 $ ./bin/rails server
 $ ./bin/rails test
 $ ./bin/rails db:seed
+$ ./bin/rails test:models
 ```
