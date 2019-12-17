@@ -22,4 +22,7 @@ $ ./bin/rails generate migration combine_items_in_cart
 $ ./bin/rails db:migrate
 $ ./bin/rails db:rollback
 $ ./bin/rails db:migrate:status
+$ ./bin/rails test:controllers
+$ ./bin/rails log:clear LOGS=test
+$ ./bin/rails test:controllers
 ```
