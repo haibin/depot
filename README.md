@@ -6,4 +6,5 @@ $ ./bin/rails generate scaffold Product title:string description:text image_url:
 $ ./bin/rails db:migrate
 $ ./bin/rails server
 $ ./bin/rails test
+$ ./bin/rails db:seed
 ```
