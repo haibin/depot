@@ -15,4 +15,5 @@ $ ./bin/rails dev:cache # turn it off
 $ ./bin/rails generate scaffold Cart
 $ ./bin/rails generate scaffold LineItem product:references cart:belongs_to
 $ ./bin/rails db:migrate
+$ ./bin/rails test test/controllers/line_items_controller_test.rb
 ```
