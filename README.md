@@ -16,4 +16,10 @@ $ ./bin/rails generate scaffold Cart
 $ ./bin/rails generate scaffold LineItem product:references cart:belongs_to
 $ ./bin/rails db:migrate
 $ ./bin/rails test test/controllers/line_items_controller_test.rb
+$ ./bin/rails generate migration add_quantity_to_line_items quantity:integer
+$ ./bin/rails db:migrate
+$ ./bin/rails generate migration combine_items_in_cart
+$ ./bin/rails db:migrate
+$ ./bin/rails db:rollback
+$ ./bin/rails db:migrate:status
 ```
