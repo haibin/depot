@@ -13,4 +13,6 @@ $ ./bin/rails test:controllers
 $ ./bin/rails dev:cache # turn it on
 $ ./bin/rails dev:cache # turn it off
 $ ./bin/rails generate scaffold Cart
+$ ./bin/rails generate scaffold LineItem product:references cart:belongs_to
+$ ./bin/rails db:migrate
 ```
