@@ -31,5 +31,8 @@ $ ./bin/rails generate migration add_order_to_line_item order:references
 $ ./bin/rails db:migrate
 $ ./bin/rails dbconsole
 $ curl --silent http://localhost:3000/products/3/who_bought.atom
+$ bundle install
+$ ./bin/rails webpacker:install
+$ ./bin/rails webpacker:install:react
 ```
 
