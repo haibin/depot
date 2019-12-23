@@ -26,5 +26,9 @@ $ ./bin/rails test:controllers
 $ ./bin/rails log:clear LOGS=test
 $ ./bin/rails test:controllers
 $ ./bin/rails generate channel products
+$ ./bin/rails generate scaffold Order name address:text email pay_type:integer
+$ ./bin/rails generate migration add_order_to_line_item order:references
+$ ./bin/rails db:migrate
+$ ./bin/rails dbconsole
 ```
 
