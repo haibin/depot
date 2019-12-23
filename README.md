@@ -26,3 +26,4 @@ $ ./bin/rails test:controllers
 $ ./bin/rails log:clear LOGS=test
 $ ./bin/rails test:controllers
 ```
+
