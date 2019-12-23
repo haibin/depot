@@ -25,5 +25,6 @@ $ ./bin/rails db:migrate:status
 $ ./bin/rails test:controllers
 $ ./bin/rails log:clear LOGS=test
 $ ./bin/rails test:controllers
+$ ./bin/rails generate channel products
 ```
 
