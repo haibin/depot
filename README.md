@@ -34,5 +34,6 @@ $ curl --silent http://localhost:3000/products/3/who_bought.atom
 $ bundle install
 $ ./bin/rails webpacker:install
 $ ./bin/rails webpacker:install:react
+$ ./bin/rails test:system
 ```
 
