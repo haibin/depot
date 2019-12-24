@@ -35,5 +35,6 @@ $ bundle install
 $ ./bin/rails webpacker:install
 $ ./bin/rails webpacker:install:react
 $ ./bin/rails test:system
+$ ./bin/rails generate mailer Order received shipped
 ```
 
