@@ -42,5 +42,7 @@ $ ./bin/rails generate scaffold User name:string password:digest
 $ ./bin/rails db:migrate
 $ bundle install
 $ sqlite3 -line db/development.sqlite3 "select * from users"
+$ ./bin/rails generate controller Sessions new create destroy
+$ ./bin/rails generate controller Admin index
 ```
 
