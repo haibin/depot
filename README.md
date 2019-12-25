@@ -36,5 +36,7 @@ $ ./bin/rails webpacker:install
 $ ./bin/rails webpacker:install:react
 $ ./bin/rails test:system
 $ ./bin/rails generate mailer Order received shipped
+$ ./bin/rails generate job charge_order
+$ ./bin/rails test test/system/orders_test.rb
 ```
 
