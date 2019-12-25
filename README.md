@@ -38,5 +38,9 @@ $ ./bin/rails test:system
 $ ./bin/rails generate mailer Order received shipped
 $ ./bin/rails generate job charge_order
 $ ./bin/rails test test/system/orders_test.rb
+$ ./bin/rails generate scaffold User name:string password:digest
+$ ./bin/rails db:migrate
+$ bundle install
+$ sqlite3 -line db/development.sqlite3 "select * from users"
 ```
 
